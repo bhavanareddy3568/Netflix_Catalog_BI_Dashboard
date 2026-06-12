@@ -6,7 +6,8 @@ An interactive executive data pipeline and BI dashboard built using Excel Advanc
 ## 📊 Executive Interactive Dashboard
 Here is the final production-ready executive analytics interface built to track content saturation, licensing velocities, and library demographics.
 
-![Netflix Executive Dashboard](dashboard_final.png)
+<img width="1869" height="735" alt="Excel_Dashboard" src="https://github.com/user-attachments/assets/d3409254-cfe7-45ee-87ca-85f13cd90c56" />
+
 
 ---
 
@@ -31,15 +32,17 @@ Here is the final production-ready executive analytics interface built to track 
 ### 3. Advanced Metric Calculations (DAX)
 To secure mathematical accuracy across intersecting dimensions, standard counting functions were bypassed in favor of advanced DAX measures:
 * **Unique Inventory Volume:** Ensure distinct asset reporting despite dimensional row splits:
-```excel
   Unique_Titles := DISTINCTCOUNT(Merge1[show_id])
 
 * **Content Portfolio Freshness:** Calculates the percentage concentration of late-era content releases (2018–2020) relative to historical holdings:
 Catalog_Freshness_Pct := DIVIDE(CALCULATE([Unique_Titles], Merge1[release_year] >= 2018), [Unique_Titles])
 
-High-Retention Assets: Flags multi-season television properties driving long-term subscriber lifetime value (LTV):
+* **High-Retention Assets:** Flags multi-season television properties driving long-term subscriber lifetime value (LTV):
 Bingeable_Shows := CALCULATE([Unique_Titles], Merge1[type]="TV Show", Merge1[duration_seasons] >= 3)
 
+---
+
 ## 📈 Strategic Business Insights Generated
- Velocity Concentration: The 31% Modern Content Ratio proves that nearly one-third of the entire content library was deployed within a tight three-year window (2018–2020). This stands as empirical evidence of aggressive capital deployment during the height of the streaming wars.
- Retention vs Acquisition Engine: While Movies represent 68% of library volume, the identification of 344 deep-inventory TV franchises targets the core operational driver behind recurring monthly billing and user retention.
+
+* **Velocity Concentration:** The 31% Modern Content Ratio proves that nearly one-third of the entire content library was deployed within a tight three-year window (2018–2020). This stands as empirical evidence of aggressive capital deployment during the height of the streaming wars.
+* **Retention vs Acquisition Engine:** While Movies represent 68% of library volume, the identification of 344 deep-inventory TV franchises targets the core operational driver behind recurring monthly billing and user retention.
