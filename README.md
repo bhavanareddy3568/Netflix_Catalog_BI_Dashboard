@@ -1,4 +1,12 @@
 # 🎬 Netflix Content Analytics Dashboard
+An end-to-end Business Intelligence and Data Analytics project built using *Excel, Power Query, Power Pivot, DAX, and Tableau Public* to transform raw Netflix content data into actionable business insights.
+
+---
+
+## 🔗 Live Dashboard
+
+📊 Tableau Public Dashboard: 
+https://public.tableau.com/app/profile/bhavana.bajjuri/viz/NetflixContentAnalyticsDashboard2008-2020/Netflix_Dashboard
 
 ## 📌 Project Overview
 
@@ -6,7 +14,26 @@ This project analyzes Netflix’s content library using Excel, Power Query, Powe
 
 The project demonstrates an end-to-end analytics workflow, including data cleaning, data modeling, dashboard development, KPI creation, and interactive visualization.
 
-The final solution consists of both an Excel Dashboard and an Interactive Tableau Public Dashboard that allow users to explore Netflix content trends across genres, countries, ratings, and content types.
+The final solution consists of:
+
+✅ Excel Analytics Dashboard
+
+✅ Interactive Tableau Public Dashboard
+
+----
+
+## 📊 Project Metrics
+
+| Metric | Value |
+|----------|----------|
+| Total Titles Analyzed | 5,089 |
+| Movies | 3,684 |
+| TV Shows | 1,405 |
+| Countries Covered | 111 |
+| Genres Covered | 42 |
+| Dashboards Built | 2 |
+| Interactive Filters | 5 |
+| KPI Cards | 5 |
 
 ----
 
@@ -212,7 +239,7 @@ This dashboard transforms raw content data into a decision-support tool that can
 
 ## 🔗 Tableau Public Dashboard
 
-👉 <img width="1058" height="622" alt="Netflix_Analysis_Tableau_Dashboard" src="https://github.com/user-attachments/assets/5ffe75fd-bd28-4514-9b0d-e05112787754" />
+👉 <img width="1055" height="622" alt="Netflix_Analysis_Tableau_Dashboard" src="https://github.com/user-attachments/assets/ad461580-2560-486f-8fde-6e44ee5c8dba" />
 
 ----
 
@@ -258,4 +285,12 @@ Netflix-Content-Analytics/
 
 Data Analytics | Business Intelligence | Data Visualization
 
-Feel free to connect and provide feedback on the project.
+🔗 Tableau Public:
+https://public.tableau.com/app/profile/bhavana.bajjuri
+
+🐙 GitHub:
+https://github.com/bhavanareddy3568
+
+---
+
+⭐Feel free to connect and provide feedback on the project.
